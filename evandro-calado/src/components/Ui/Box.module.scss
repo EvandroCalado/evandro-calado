@@ -1,0 +1,16 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.box {
+  @include flex-center;
+  background-color: $lightPrimary;
+  padding: 3rem;
+  max-width: 7rem;
+
+  span {
+    text-transform: uppercase;
+    color: $darkPrimary;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+}
