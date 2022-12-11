@@ -1,9 +1,9 @@
 import styles from "./Header.module.scss";
 import { RiLinkedinFill, RiWhatsappFill } from "react-icons/ri";
 import { AiFillInstagram, AiOutlineArrowDown } from "react-icons/ai";
-import Image from "next/image"
+import Image from "next/image";
 
-const Header = ({header}) => {
+const Header = ({ header }) => {
   return (
     <header className={styles.header_wrapper}>
       <div className={styles.header}>
