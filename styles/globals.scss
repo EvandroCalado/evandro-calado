@@ -89,3 +89,45 @@ p,
     }
   }
 }
+
+.field {
+  &:not(:last-of-type) {
+    margin-bottom: 2rem;
+  }
+
+  & > * {
+    display: block;
+    text-align: left;
+  }
+
+  label {
+    margin-bottom: 0.5rem;
+  }
+
+  input,
+  textarea {
+    outline: none;
+    resize: none;
+    padding: 1rem;
+    width: 100%;
+    color: $black;
+    font-family: $fontFamily;
+  }
+}
+
+.error {
+  color: $error;
+  margin-top: 0.5rem;
+  text-align: left;
+  display: block;
+  font-size: 1.4rem;
+}
+
+.sucess {
+  margin-top: 0.5rem;
+  text-align: left;
+  display: block;
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: $white;
+}

@@ -1,9 +1,8 @@
 import styles from "./Header.module.scss";
 import { RiLinkedinFill, RiWhatsappFill } from "react-icons/ri";
 import { AiFillInstagram, AiOutlineArrowDown } from "react-icons/ai";
-import Image from "next/image";
 
-const Header = ({ header }) => {
+const Header = ({ header, social }) => {
   return (
     <header className={styles.header_wrapper}>
       <div className={styles.header}>
@@ -16,13 +15,13 @@ const Header = ({ header }) => {
           <p>{header.sumary}</p>
         </div>
         <div className={styles.social}>
-          <a href="#">
+          <a href={social.linkedin}>
             <RiLinkedinFill className={styles.icon} />
           </a>
-          <a href="#">
+          <a href={social.instagram}>
             <AiFillInstagram className={styles.icon} />
           </a>
-          <a href="#">
+          <a href={social.whatsapp}>
             <RiWhatsappFill className={styles.icon} />
           </a>
         </div>

@@ -6,6 +6,7 @@ const client = createClient({
   apiVersion: process.env.NEXT_PUBLIC_API_VERSION,
   useCdn: process.env.NEXT_PUBLIC_USE_CDN,
   token: process.env.NEXT_PUBLIC_TOKEN,
+  ignoreBrowserTokenWarning: true
 });
 
 export default client;
