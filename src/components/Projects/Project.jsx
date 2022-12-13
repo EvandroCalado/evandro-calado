@@ -1,6 +1,6 @@
 import styles from "./Project.module.scss";
 import { AiFillGithub } from "react-icons/ai";
-import { SiNetlify } from "react-icons/si";
+import { SiNetlify, SiVercel } from "react-icons/si";
 
 const Project = ({ image, technologies, title, description, url }) => {
   const renderTechnologies = technologies.map((item) => {
@@ -9,11 +9,14 @@ const Project = ({ image, technologies, title, description, url }) => {
 
   const renderIcon = renderTechnologies.map((icon, index) => {
     return (
-      (icon.props.children == "github" && (
+      (icon.props.children == "Github" && (
         <AiFillGithub key={index} className={styles.icon} />
       )) ||
-      (icon.props.children == "netlify" && (
+      (icon.props.children == "Netlify" && (
         <SiNetlify key={index} className={styles.icon} />
+      )) ||
+      (icon.props.children == "Vercel" && (
+        <SiVercel key={index} className={styles.icon} />
       ))
     );
   });
