@@ -25,7 +25,7 @@ const Header = ({ header, social }) => {
             <RiWhatsappFill className={styles.icon} />
           </a>
         </div>
-        <a href="#" className={styles.arrow}>
+        <a href="#about" className={styles.arrow}>
           <AiOutlineArrowDown className={styles.icon} />
         </a>
       </div>

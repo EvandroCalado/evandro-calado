@@ -4,6 +4,10 @@
 .footer_wrapper {
   background-color: $background;
 
+  @include device(mobile) {
+    padding: 0 2rem;
+  }
+
   .footer {
     @include max-width;
     @include flex-center;
@@ -17,6 +21,10 @@
       position: absolute;
       top: -5rem;
       left: 2rem;
+
+      @include device(mobile) {
+        display: none;
+      }
     }
 
     form {

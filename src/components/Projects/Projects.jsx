@@ -15,7 +15,7 @@ const Projects = ({ projects }) => {
   });
 
   return (
-    <section className={styles.projects}>
+    <section className={styles.projects} id="projects">
       <h2>{projects.title}</h2>
       <ul className={styles.list}>{renderPorject}</ul>
       <a href={projects.url} className="btn btn-primary">

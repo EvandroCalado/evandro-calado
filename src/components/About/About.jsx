@@ -7,7 +7,7 @@ const About = ({ about }) => {
   });
 
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id="about">
       <div className={styles.image}>
         <img src={about.image_url} alt="Evandro" />
         <div className={styles.box}>

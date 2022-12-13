@@ -15,7 +15,7 @@ const Skills = ({ skills }) => {
   });
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="skills">
       <div className={styles.skills}>
         <div className={styles.heading}>
           <h2>{skills.title}</h2>

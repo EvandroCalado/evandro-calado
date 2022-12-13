@@ -66,7 +66,7 @@ const Footer = ({ footer }) => {
   };
 
   return (
-    <footer className={styles.footer_wrapper}>
+    <footer className={styles.footer_wrapper} id="footer">
       <div className={styles.footer}>
         <div className={styles.box}>
           <Box text="Contato" />

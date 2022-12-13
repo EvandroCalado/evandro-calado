@@ -4,6 +4,9 @@
 .project {
   cursor: pointer;
   transition: all 0.2s ease-in;
+  box-shadow: 1px 4px 12px rgba(39, 38, 38, 0.2);
+  border-radius: 1rem 1rem 0 0;
+  overflow: hidden;
 
   &:hover {
     transform: translateY(-1rem);
@@ -33,7 +36,6 @@
     height: 20rem;
     border-radius: 1rem 1rem 0 0;
     margin-bottom: 1.5rem;
-    overflow: hidden;
     position: relative;
 
     .icon {
@@ -58,7 +60,7 @@
     font-weight: 500;
     font-size: 1.4rem;
     display: inline-block;
-    margin-bottom: 1rem;
+    margin: 0 1rem 1rem 1rem;
 
     &:not(:last-of-type) {
       margin-right: 1rem;
@@ -76,7 +78,7 @@
     }
   }
 
-  h3 {
-    margin-bottom: 1rem;
+  h3, p {
+    margin: 0 1rem 1rem 1rem;
   }
 }
