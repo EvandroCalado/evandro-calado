@@ -94,6 +94,7 @@ p,
   font-weight: 500;
   transition: all 0.2s ease-in-out;
   box-shadow: 2px 4px 12px rgba(39, 38, 38, 0.2);
+  border-radius: 0.5rem;
 
   &.btn-primary {
     background-color: $primary;

@@ -17,7 +17,7 @@ const About = ({ about }) => {
       <div className={styles.content}>
         <h2>{about.title}</h2>
         {renderParagraph}
-        <a href={about.url} className="btn btn-primary">
+        <a href={about.url} target="_blank" className="btn btn-primary">
           {about.button}
         </a>
       </div>

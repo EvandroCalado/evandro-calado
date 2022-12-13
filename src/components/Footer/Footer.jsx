@@ -100,7 +100,9 @@ const Footer = ({ footer }) => {
             <button className="btn btn-primary" disabled={!isFormValid && true}>
               {isLoading ? <Spinner /> : "Enviar"}
             </button>
-            {hasError && <span className="error">Alguma coisa deu errado...</span>}
+            {hasError && (
+              <span className="error">Alguma coisa deu errado...</span>
+            )}
           </form>
         ) : (
           <h3 className="sucess">Obrigado por entrar em contato !</h3>

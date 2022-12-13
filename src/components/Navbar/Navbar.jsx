@@ -16,7 +16,7 @@ const Navbar = () => {
         <nav>
           <ul className={styles.list}>
             <NavLink text="Sobre Mim" url="#about" />
-            <NavLink text="Experiências" url="#skills" />
+            <NavLink text="Habilidades" url="#skills" />
             <NavLink text="Projetos" url="#projects" />
             <NavLink text="Contato" url="#footer" />
           </ul>

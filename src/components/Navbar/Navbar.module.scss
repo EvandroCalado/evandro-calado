@@ -19,7 +19,7 @@
 
     .logo {
       position: absolute;
-      top: -0.8rem;
+      top: 0.5rem;
       left: 2rem;
       display: flex;
       justify-content: center;
@@ -31,11 +31,23 @@
 
       h1 {
         font-size: 3.5rem;
-        font-weight: 200;
+        font-weight: 600;
       }
     }
 
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    li {
+      display: block;
+      width: 10rem;
+    }
+
     a {
+      @include flex-center;
       text-decoration: none;
     }
 

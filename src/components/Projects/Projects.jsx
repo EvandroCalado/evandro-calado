@@ -10,6 +10,7 @@ const Projects = ({ projects }) => {
         technologies={item.technologies}
         title={item.title}
         description={item.description}
+        url={item.url}
       />
     );
   });
@@ -18,7 +19,7 @@ const Projects = ({ projects }) => {
     <section className={styles.projects} id="projects">
       <h2>{projects.title}</h2>
       <ul className={styles.list}>{renderPorject}</ul>
-      <a href={projects.url} className="btn btn-primary">
+      <a href={projects.url} target="_blank" className="btn btn-primary">
         {projects.button}
       </a>
     </section>

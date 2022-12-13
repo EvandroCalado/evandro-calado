@@ -22,7 +22,6 @@
         top: 50%;
         right: 50%;
         transform: translate(50%, -50%) scale(3);
-
       }
     }
   }
@@ -78,7 +77,8 @@
     }
   }
 
-  h3, p {
+  h3,
+  p {
     margin: 0 1rem 1rem 1rem;
   }
 }

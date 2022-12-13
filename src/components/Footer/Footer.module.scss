@@ -32,6 +32,11 @@
       max-width: 55rem;
       color: $white;
 
+      input,
+      textarea {
+        border-radius: 0.5rem;
+      }
+
       button {
         margin-top: 3rem;
         width: 100%;
