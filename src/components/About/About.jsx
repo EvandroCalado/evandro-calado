@@ -1,4 +1,4 @@
-import Box from "../Ui/box";
+import Box from "../Ui/Box.jsx";
 import styles from "./About.module.scss";
 
 const About = ({ about }) => {

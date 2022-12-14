@@ -1,7 +1,7 @@
 import { useState } from "react";
 import client from "../../sanity";
 import useValidation from "../Hooks/useValidation";
-import Box from "../Ui/box";
+import Box from "../Ui/Box.jsx";
 import InputField from "../Ui/InputField";
 import Spinner from "../Ui/Spinner";
 import styles from "./Footer.module.scss";
