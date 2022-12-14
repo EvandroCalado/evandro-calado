@@ -15,13 +15,13 @@ const Header = ({ header, social }) => {
           <p>{header.sumary}</p>
         </div>
         <div className={styles.social}>
-          <a href={social.linkedin} target="_blank">
+          <a href={social.linkedin} target="_blank" rel="noreferrer">
             <RiLinkedinFill className={styles.icon} />
           </a>
-          <a href={social.instagram} target="_blank">
+          <a href={social.instagram} target="_blank" rel="noreferrer">
             <AiFillInstagram className={styles.icon} />
           </a>
-          <a href={social.whatsapp} target="_blank">
+          <a href={social.whatsapp} target="_blank" rel="noreferrer">
             <RiWhatsappFill className={styles.icon} />
           </a>
         </div>

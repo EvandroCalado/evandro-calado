@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./Project.module.scss";
 import { AiFillGithub } from "react-icons/ai";
 import { SiNetlify, SiVercel } from "react-icons/si";
@@ -23,7 +24,7 @@ const Project = ({ image, technologies, title, description, url }) => {
 
   return (
     <li className={styles.project}>
-      <a href={url} target="_blank">
+      <a href={url} target="_blank" rel="noreferrer">
         <div className={styles.image}>
           {renderIcon}
           <img src={image} alt="Projeto" />

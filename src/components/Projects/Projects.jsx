@@ -19,7 +19,12 @@ const Projects = ({ projects }) => {
     <section className={styles.projects} id="projects">
       <h2>{projects.title}</h2>
       <ul className={styles.list}>{renderPorject}</ul>
-      <a href={projects.url} target="_blank" className="btn btn-primary">
+      <a
+        href={projects.url}
+        target="_blank"
+        className="btn btn-primary"
+        rel="noreferrer"
+      >
         {projects.button}
       </a>
     </section>
